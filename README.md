@@ -13,6 +13,10 @@ The main CRUD functionality of this project is to have the ability of saving, up
 
 Here I created a couple of models for the project using Python. Entry is the form to be able to save your resorts uwith Django.
 
+code()
+
+Markup :  `code()`
+
 from django.db import models
 
 class Entry(models.Model):<br>
