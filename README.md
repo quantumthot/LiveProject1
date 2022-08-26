@@ -14,30 +14,29 @@ The main CRUD functionality of this project is to have the ability of saving, up
 Here I created a couple of models for the project using Python. Entry is the form to be able to save your resorts uwith Django.
 
 
-
 from django.db import models
 
 class Entry(models.Model):<br>
->>resort = models.CharField(max_length=50)<br>
-.    location = models.CharField(max_length=100)<br>
-    tickets = models.CharField(max_length=50, default='')<br>
-    date = models.CharField(max_length=50)<br>
-    conditions = models.TextField(max_length=1000)<br>
-    # Model manager<br>
-    Entries = models.Manager()<br>
+>resort = models.CharField(max_length=50)<br>
+>location = models.CharField(max_length=100)<br>
+tickets = models.CharField(max_length=50, default='')<br>
+>date = models.CharField(max_length=50)<br>
+>conditions = models.TextField(max_length=1000)<br>
 
-    def __str__(self):<br>
-        return self.resort<br>
+>Entries = models.Manager()<br>
+
+>def __str__(self):<br>
+>>return self.resort<br>
 
 
 class WeatherMoment(models.Model):<br>
-    temperature = models.IntegerField()<br>
-    date = models.DateTimeField(auto_now_add=True)<br>
+>temperature = models.IntegerField()<br>
+>date = models.DateTimeField(auto_now_add=True)<br>
 
-    WeatherMoments = models.Manager()<br>
+>WeatherMoments = models.Manager()<br>
 
-    def __str__(self):<br>
-        return self.date
+>def __str__(self):<br>
+>>return self.date
 
 
 
