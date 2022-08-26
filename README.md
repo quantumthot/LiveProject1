@@ -41,6 +41,8 @@ class WeatherMoment(models.Model):<br>
     def __str__(self):<br>
         return self.date
 
+Markup : ```python
+         ```
 
 <h2>Read</h2>[Story 3: Display all items from database],[Story 4: Details page]
 
