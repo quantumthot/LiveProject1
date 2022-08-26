@@ -13,15 +13,13 @@ The main CRUD functionality of this project is to have the ability of saving, up
 
 Here I created a couple of models for the project using Python. Entry is the form to be able to save your resorts uwith Django.
 
-code()
 
-Markup :  `code()`
 
 from django.db import models
 
 class Entry(models.Model):<br>
-    resort = models.CharField(max_length=50)<br>
-    location = models.CharField(max_length=100)<br>
+>>resort = models.CharField(max_length=50)<br>
+.    location = models.CharField(max_length=100)<br>
     tickets = models.CharField(max_length=50, default='')<br>
     date = models.CharField(max_length=50)<br>
     conditions = models.TextField(max_length=1000)<br>
@@ -41,8 +39,7 @@ class WeatherMoment(models.Model):<br>
     def __str__(self):<br>
         return self.date
 
-Markup : ```python
-         ```
+
 
 <h2>Read</h2>[Story 3: Display all items from database],[Story 4: Details page]
 
