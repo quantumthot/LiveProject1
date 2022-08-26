@@ -9,9 +9,38 @@ This is a code summary of a live group project I worked on over a two week sprin
 
 The main CRUD functionality of this project is to have the ability of saving, updating, or deleting your favorite ski resort. Including saved information of ticket prices and conditions.
 
-<h2>Create</h2>[Story 2: Create your model]
+<h2>Create</h2>
+
+Here I created a couple of models for the project using Python. Entry is the form to be able to save your resorts uwith Django.
+
+from django.db import models
+
+class Entry(models.Model):
+    resort = models.CharField(max_length=50)
+    location = models.CharField(max_length=100)
+    tickets = models.CharField(max_length=50, default='')
+    date = models.CharField(max_length=50)
+    conditions = models.TextField(max_length=1000)
+    # Model manager
+    Entries = models.Manager()
+
+    def __str__(self):
+        return self.resort
+
+
+class WeatherMoment(models.Model):
+    temperature = models.IntegerField()
+    date = models.DateTimeField(auto_now_add=True)
+
+    WeatherMoments = models.Manager()
+
+    def __str__(self):
+        return self.date
+
 
 <h2>Read</h2>[Story 3: Display all items from database],[Story 4: Details page]
+
+
 
 <h2>Update and Delete</h2>[Story 5: Edit and Delete Functions]
 
@@ -22,3 +51,4 @@ The main CRUD functionality of this project is to have the ability of saving, up
 <h2>Front End Development</h2>[Story 8: Front End Improvements]
 
 <h2>Skills Acquired</h2>
+This was a fun and challenging project for me. I learned a lot of great back and front-end skills that I will implement in the future. There are still more designing and features I would like to add to this project.
