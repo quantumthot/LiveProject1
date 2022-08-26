@@ -1,15 +1,17 @@
 # Python Live Project
 
 <h2>Introduction</h2>
-This is a code summary of a live group project I worked on over a two week sprint, while attending The Tech Academy. I created a web-based UI application that utilizes various Python and Django features. In the "Snow Report" app, there are databases to keep track of data, use of data scraping to collect and aggrigate data, and more! You can save your favorite ski resort, and see the local temperature. This project is built using Python, Django, SQLite, Bootstrap, Jquery, and HTML/CSS.
+
+This is a code summary of a live group project I worked on over a two week sprint, while attending The Tech Academy. I created a web-based UI application that utilizes various Python and Django features. In the "Snow Report" app, there are databases to keep track of data, use of data scraping to collect and aggrigate data, and more! You can save your favorite ski resort, and see the local temperature. This project is built using Python, Django, SQLite, Bootstrap, Jquery, and HTML/CSS. It was really great working on a team, 
 
 
 <h2>CRUD Functionality</h2>
 
+The main CRUD functionality of this project is to have the ability of saving, updating, or deleting your favorite ski resort. Including saved information of ticket prices and conditions.
 
-
-Create
+<h2>Create</h2>
 [Story 2: Create your model]
+
 
 Read
 [Story 3: Display all items from database]
