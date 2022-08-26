@@ -15,26 +15,26 @@ Here I created a couple of models for the project using Python. Entry is the for
 
 from django.db import models
 
-class Entry(models.Model):
-    resort = models.CharField(max_length=50)
-    location = models.CharField(max_length=100)
-    tickets = models.CharField(max_length=50, default='')
-    date = models.CharField(max_length=50)
-    conditions = models.TextField(max_length=1000)
-    # Model manager
-    Entries = models.Manager()
+class Entry(models.Model):<br>
+    resort = models.CharField(max_length=50)<br>
+    location = models.CharField(max_length=100)<br>
+    tickets = models.CharField(max_length=50, default='')<br>
+    date = models.CharField(max_length=50)<br>
+    conditions = models.TextField(max_length=1000)<br>
+    # Model manager<br>
+    Entries = models.Manager()<br>
 
-    def __str__(self):
-        return self.resort
+    def __str__(self):<br>
+        return self.resort<br>
 
 
-class WeatherMoment(models.Model):
-    temperature = models.IntegerField()
-    date = models.DateTimeField(auto_now_add=True)
+class WeatherMoment(models.Model):<br>
+    temperature = models.IntegerField()<br>
+    date = models.DateTimeField(auto_now_add=True)<br>
 
-    WeatherMoments = models.Manager()
+    WeatherMoments = models.Manager()<br>
 
-    def __str__(self):
+    def __str__(self):<br>
         return self.date
 
 
