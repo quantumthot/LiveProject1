@@ -9,27 +9,16 @@ This is a code summary of a live group project I worked on over a two week sprin
 
 The main CRUD functionality of this project is to have the ability of saving, updating, or deleting your favorite ski resort. Including saved information of ticket prices and conditions.
 
-<h2>Create</h2>
-[Story 2: Create your model]
+<h2>Create</h2>[Story 2: Create your model]
 
+<h2>Read</h2>[Story 3: Display all items from database],[Story 4: Details page]
 
-Read
-[Story 3: Display all items from database]
-[Story 4: Details page]
+<h2>Update and Delete</h2>[Story 5: Edit and Delete Functions]
 
-Update and Delete
-[Story 5: Edit and Delete Functions]
+<h2>Web Scraping</h2>[Stories 6 & 7: Beautiful Soup],[Story 9: Save API or scraped results]
 
-Web Scraping
-[Stories 6 & 7: Beautiful Soup]
-[Story 9: Save API or scraped results]
+<h2>API</h2>[Stories 6 & 7: API],[Story 9: Save API or scraped results]
 
-API
-[Stories 6 & 7: API]
-[Story 9: Save API or scraped results]
+<h2>Front End Development</h2>[Story 8: Front End Improvements]
 
-Front End Development
-[Story 8: Front End Improvements]
-[Any other Front End work you’ve done that you would like to showcase]
-
-Skills Acquired
+<h2>Skills Acquired</h2>
